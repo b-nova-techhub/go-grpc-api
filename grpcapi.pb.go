@@ -202,4 +202,3 @@ var _GrpcService_serviceDesc = grpc.ServiceDesc{
 	Streams:  []grpc.StreamDesc{},
 	Metadata: "grpcapi.proto",
 }
-http://
