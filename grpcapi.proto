@@ -1,18 +1,16 @@
-// protocol.proto
-
 syntax = "proto3";
 
 package grpcapi;
 option go_package = ".;grpcapi";
 
 message GrpcRequest {
-    string input = 1;
+  string input = 1;
 }
 
 message GrpcResponse {
-    string response = 1;
+  string response = 1;
 }
 
 service GrpcService {
-    rpc grpcService(GrpcRequest) returns (GrpcResponse) {};
+  rpc grpcService(GrpcRequest) returns (GrpcResponse) {};
 }
